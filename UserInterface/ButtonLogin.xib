@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11760" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansKR-Regular-Hestia.otf">
+            <string>NotoSansKR-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonLogin" customModule="Oasis" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="iwY-2W-HdJ" id="s37-iD-RJR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="149"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwY-2W-HdJ">
+                    <rect key="frame" x="0.0" y="0.0" width="395" height="149"/>
+                    <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="16"/>
+                    <state key="normal" title="Button2" backgroundImage="btn_login_normal"/>
+                    <connections>
+                        <action selector="touchUpInside:" destination="-1" eventType="touchUpInside" id="amJ-wB-U5Q"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="iwY-2W-HdJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YPt-9v-CRR"/>
+                <constraint firstAttribute="bottom" secondItem="iwY-2W-HdJ" secondAttribute="bottom" id="bev-Md-f8u"/>
+                <constraint firstItem="iwY-2W-HdJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sOA-B2-UKu"/>
+                <constraint firstAttribute="trailing" secondItem="iwY-2W-HdJ" secondAttribute="trailing" id="yCT-04-jmm"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="31.5" y="-177.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn_login_normal" width="335" height="40"/>
+    </resources>
+</document>

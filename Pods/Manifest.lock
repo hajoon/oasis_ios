@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (4.3.0)
+  - DownPicker (0.1.34)
+  - FSCalendar (2.6.0)
+  - IOStickyHeader (1.0.1)
+  - KYDrawerController (2.0.1)
+  - LiquidFloatingActionButton (2.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - DownPicker
+  - FSCalendar
+  - IOStickyHeader
+  - KYDrawerController
+  - LiquidFloatingActionButton (from `https://github.com/alexsanderkhitev/LiquidFloatingActionButton.git`)
+  - SDWebImage (~> 4.0)
+
+EXTERNAL SOURCES:
+  LiquidFloatingActionButton:
+    :git: https://github.com/alexsanderkhitev/LiquidFloatingActionButton.git
+
+CHECKOUT OPTIONS:
+  LiquidFloatingActionButton:
+    :commit: 7acc6dee04da3ee00ff881309bd64763b216f0e6
+    :git: https://github.com/alexsanderkhitev/LiquidFloatingActionButton.git
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  DownPicker: c00ea63f08ae82116cc93d0eba74e86bf3d4c68e
+  FSCalendar: c00fa5f4c3ec343ee6f7b804ae19322e9898bb84
+  IOStickyHeader: 8b48006d9dbf0e274b872246ea6034783dacd1f5
+  KYDrawerController: b716cfa5730dc2133a67efcfc28b3b5a2cff6101
+  LiquidFloatingActionButton: 61496c787627103ccb3a23d4dea71faef4a84d4d
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: b7d124bccab4f06a4361a127d5a4cb6cbbe0e734
+
+COCOAPODS: 1.2.0

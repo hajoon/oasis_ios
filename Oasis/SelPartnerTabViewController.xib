@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelPartnerTabViewController" customModule="Oasis" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="Rzs-45-Fg9" id="waq-IC-bm2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="i6j-Gl-lkC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="SelPartnerTabView" customModule="Oasis" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="255"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5rT-6M-FZC">
+                    <rect key="frame" x="0.0" y="0.0" width="310" height="255"/>
+                    <subviews>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Rzs-45-Fg9">
+                            <rect key="frame" x="0.0" y="0.0" width="310" height="255"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="WWM-is-aAY">
+                                <size key="itemSize" width="307" height="128"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells>
+                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="1dM-o5-ya9">
+                                    <rect key="frame" x="2" y="0.0" width="307" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                        <rect key="frame" x="0.0" y="0.0" width="307" height="128"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </view>
+                                </collectionViewCell>
+                            </cells>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Rzs-45-Fg9" firstAttribute="top" secondItem="5rT-6M-FZC" secondAttribute="top" id="NX4-7q-nFN"/>
+                        <constraint firstAttribute="bottom" secondItem="Rzs-45-Fg9" secondAttribute="bottom" id="UXJ-7d-mh6"/>
+                        <constraint firstItem="Rzs-45-Fg9" firstAttribute="leading" secondItem="5rT-6M-FZC" secondAttribute="leading" id="ZfR-1g-8Xy"/>
+                        <constraint firstAttribute="trailing" secondItem="Rzs-45-Fg9" secondAttribute="trailing" id="uWZ-xH-l9x"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="5rT-6M-FZC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NLT-LB-slX"/>
+                <constraint firstAttribute="bottom" secondItem="5rT-6M-FZC" secondAttribute="bottom" id="eoy-Ms-Be9"/>
+                <constraint firstAttribute="trailing" secondItem="5rT-6M-FZC" secondAttribute="trailing" id="fNH-Bh-wJh"/>
+                <constraint firstItem="5rT-6M-FZC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qDj-79-jhM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="38" y="-85.5"/>
+        </view>
+    </objects>
+</document>

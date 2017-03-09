@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11760" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansKR-Regular-Hestia.otf">
+            <string>NotoSansKR-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextfieldIcon" customModule="UserInterface" customModuleProvider="target">
+            <connections>
+                <outlet property="back" destination="WiU-yD-dAn" id="eJ0-iw-MoG"/>
+                <outlet property="bottomLine" destination="rrm-5k-Uyb" id="yA3-MB-5Pq"/>
+                <outlet property="icon" destination="eAt-fj-E07" id="D7O-PJ-TM8"/>
+                <outlet property="textfield" destination="NLg-JQ-PRa" id="rhJ-Dw-GFu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="56"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WiU-yD-dAn">
+                    <rect key="frame" x="0.0" y="0.0" width="353" height="56"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_email_normal" translatesAutoresizingMaskIntoConstraints="NO" id="eAt-fj-E07">
+                            <rect key="frame" x="0.0" y="15.5" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="Vu5-Ig-Uao"/>
+                                <constraint firstAttribute="width" constant="25" id="kOc-AC-z7H"/>
+                            </constraints>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="가입하신 이메일 주소를 입력해 주세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NLg-JQ-PRa">
+                            <rect key="frame" x="44" y="16" width="309" height="24"/>
+                            <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="16"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rrm-5k-Uyb">
+                            <rect key="frame" x="0.0" y="55" width="353" height="1"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="UxC-FT-xRa"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="rrm-5k-Uyb" secondAttribute="bottom" id="Ew5-Om-B4o"/>
+                        <constraint firstItem="eAt-fj-E07" firstAttribute="centerY" secondItem="WiU-yD-dAn" secondAttribute="centerY" id="F3L-Cn-s8s"/>
+                        <constraint firstItem="NLg-JQ-PRa" firstAttribute="leading" secondItem="eAt-fj-E07" secondAttribute="trailing" constant="19" id="Gi9-EP-BQi"/>
+                        <constraint firstAttribute="trailing" secondItem="NLg-JQ-PRa" secondAttribute="trailing" id="L0p-0l-jNx"/>
+                        <constraint firstItem="NLg-JQ-PRa" firstAttribute="centerY" secondItem="WiU-yD-dAn" secondAttribute="centerY" id="Qwd-xc-bAU"/>
+                        <constraint firstItem="rrm-5k-Uyb" firstAttribute="leading" secondItem="WiU-yD-dAn" secondAttribute="leading" id="bxX-sH-6yi"/>
+                        <constraint firstAttribute="trailing" secondItem="rrm-5k-Uyb" secondAttribute="trailing" id="k6i-91-wSV"/>
+                        <constraint firstItem="eAt-fj-E07" firstAttribute="leading" secondItem="WiU-yD-dAn" secondAttribute="leading" id="uH2-j5-YLp"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="WiU-yD-dAn" secondAttribute="bottom" id="4gW-0J-shx"/>
+                <constraint firstAttribute="trailing" secondItem="WiU-yD-dAn" secondAttribute="trailing" id="DDZ-Y6-8lP"/>
+                <constraint firstItem="WiU-yD-dAn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KKZ-pH-sem"/>
+                <constraint firstItem="WiU-yD-dAn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rCp-W5-9BV"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="17.5" y="-246"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_email_normal" width="25" height="25"/>
+    </resources>
+</document>

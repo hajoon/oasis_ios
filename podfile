@@ -1,0 +1,12 @@
+target ‘Oasis’ do
+	target ‘UserInterface’ do
+		pod ‘KYDrawerController’
+		pod 'LiquidFloatingActionButton', :git => 'https://github.com/alexsanderkhitev/LiquidFloatingActionButton.git'
+		pod ‘IOStickyHeader’
+		pod 'FSCalendar'
+		pod 'Alamofire', '~> 4.3'
+		pod 'SDWebImage', '~>4.0’
+		pod "DownPicker"
+	end
+end
+use_frameworks!

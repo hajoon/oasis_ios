@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11760" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansKR-Regular-Hestia.otf">
+            <string>NotoSansKR-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DrawerItem" customModule="Oasis" customModuleProvider="target">
+            <connections>
+                <outlet property="arrow" destination="OUE-gE-Jmu" id="x3s-qG-F6C"/>
+                <outlet property="back" destination="uGL-PQ-Gs2" id="IGl-JH-55m"/>
+                <outlet property="icon" destination="QDc-3N-SOq" id="xmW-Gg-5Ij"/>
+                <outlet property="text" destination="NEV-Xa-IUe" id="6fo-xy-Ebf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uGL-PQ-Gs2">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_drawer_estimate" translatesAutoresizingMaskIntoConstraints="NO" id="QDc-3N-SOq">
+                            <rect key="frame" x="0.0" y="17" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="CqP-yh-gKe"/>
+                                <constraint firstAttribute="height" constant="50" id="qGL-Qa-ece"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6qb-Ep-OvC">
+                            <rect key="frame" x="51" y="66" width="324" height="1"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="LO3-mK-Z0z"/>
+                            </constraints>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_drawer_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="OUE-gE-Jmu">
+                            <rect key="frame" x="349" y="35.5" width="8" height="13"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="13" id="b1t-f2-wBm"/>
+                                <constraint firstAttribute="width" constant="8" id="r8W-mZ-mSF"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEV-Xa-IUe">
+                            <rect key="frame" x="50" y="32" width="36" height="21"/>
+                            <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="QDc-3N-SOq" firstAttribute="centerY" secondItem="uGL-PQ-Gs2" secondAttribute="centerY" id="1ME-uZ-YIr"/>
+                        <constraint firstItem="6qb-Ep-OvC" firstAttribute="baseline" secondItem="QDc-3N-SOq" secondAttribute="baseline" id="CLD-Y3-3Om"/>
+                        <constraint firstAttribute="trailing" secondItem="OUE-gE-Jmu" secondAttribute="trailing" constant="18" id="EFA-Mf-FL5"/>
+                        <constraint firstItem="QDc-3N-SOq" firstAttribute="leading" secondItem="uGL-PQ-Gs2" secondAttribute="leading" id="Q6H-tS-UDn"/>
+                        <constraint firstItem="NEV-Xa-IUe" firstAttribute="leading" secondItem="QDc-3N-SOq" secondAttribute="trailing" id="ZPK-fY-Fqa"/>
+                        <constraint firstAttribute="trailing" secondItem="6qb-Ep-OvC" secondAttribute="trailing" id="Zwt-nz-DBL"/>
+                        <constraint firstItem="NEV-Xa-IUe" firstAttribute="centerY" secondItem="uGL-PQ-Gs2" secondAttribute="centerY" id="f1u-CX-oAJ"/>
+                        <constraint firstItem="OUE-gE-Jmu" firstAttribute="centerY" secondItem="uGL-PQ-Gs2" secondAttribute="centerY" id="iUJ-t0-ioq"/>
+                        <constraint firstItem="6qb-Ep-OvC" firstAttribute="leading" secondItem="QDc-3N-SOq" secondAttribute="trailing" constant="1" id="ryd-vO-7Lb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uGL-PQ-Gs2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LUF-dY-NHV"/>
+                <constraint firstAttribute="trailing" secondItem="uGL-PQ-Gs2" secondAttribute="trailing" id="ocO-Tl-EsP"/>
+                <constraint firstAttribute="bottom" secondItem="uGL-PQ-Gs2" secondAttribute="bottom" id="tFn-KA-rF0"/>
+                <constraint firstItem="uGL-PQ-Gs2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uCW-Ze-QIJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="25.5" y="-239"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_drawer_arrow" width="8" height="13"/>
+        <image name="ic_drawer_estimate" width="44" height="44"/>
+    </resources>
+</document>

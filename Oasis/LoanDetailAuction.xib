@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11760" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11755"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansKR-Bold-Hestia.otf">
+            <string>NotoSansKR-Bold</string>
+        </array>
+        <array key="NotoSansKR-Regular-Hestia.otf">
+            <string>NotoSansKR-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="520"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ld3-ys-Ruj">
+                    <rect key="frame" x="15" y="0.0" width="345" height="520"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsd-hd-scj">
+                            <rect key="frame" x="0.0" y="0.0" width="345" height="40"/>
+                            <subviews>
+                                <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bQ0-ek-gmZ">
+                                    <rect key="frame" x="0.0" y="39" width="345" height="1"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="WRa-0W-JZq"/>
+                                    </constraints>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03. 경매 대기 정보" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpR-uS-aQY">
+                                    <rect key="frame" x="8" y="8" width="121.5" height="24"/>
+                                    <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="16"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="1jY-8Y-0c2"/>
+                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="40" id="3ay-Mj-fEr"/>
+                                <constraint firstItem="WpR-uS-aQY" firstAttribute="leading" secondItem="dsd-hd-scj" secondAttribute="leading" constant="8" id="4GN-Ky-Owx"/>
+                                <constraint firstItem="WpR-uS-aQY" firstAttribute="centerY" secondItem="dsd-hd-scj" secondAttribute="centerY" id="V08-Uf-RA6"/>
+                                <constraint firstAttribute="trailing" secondItem="bQ0-ek-gmZ" secondAttribute="trailing" id="VaH-3R-Jz1"/>
+                                <constraint firstItem="bQ0-ek-gmZ" firstAttribute="leading" secondItem="dsd-hd-scj" secondAttribute="leading" id="pny-Hu-pjf"/>
+                                <constraint firstAttribute="bottom" secondItem="bQ0-ek-gmZ" secondAttribute="bottom" id="uiL-OK-zwP"/>
+                                <constraint firstAttribute="height" constant="40" id="ywQ-9g-5WD"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Td-kG-enS">
+                            <rect key="frame" x="0.0" y="40" width="345" height="120"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KR4-kC-vzK">
+                                    <rect key="frame" x="30" y="18.5" width="315" height="84"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="고객님께 알려드립니다!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3a-cv-Liq">
+                                            <rect key="frame" x="0.0" y="0.0" width="315" height="22.5"/>
+                                            <fontDescription key="fontDescription" name="NotoSansKR-Bold" family="Noto Sans KR" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wmc-vz-p4K">
+                                            <rect key="frame" x="0.0" y="22.5" width="315" height="17"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="17" id="rJz-Vk-pkx"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(결제일+14)일자 까지 이자금액 미 입금시 (결제일+15)일, 위 물품이 오픈 경매에 출품됩니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Itz-qM-ZXH">
+                                            <rect key="frame" x="0.0" y="39.5" width="315" height="44.5"/>
+                                            <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oYA-tg-bhZ">
+                                    <rect key="frame" x="0.0" y="119" width="345" height="1"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="J8N-VG-7JQ"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="oYA-tg-bhZ" secondAttribute="trailing" id="EHY-2k-klV"/>
+                                <constraint firstAttribute="height" constant="120" id="Lnz-Y3-ytq"/>
+                                <constraint firstItem="KR4-kC-vzK" firstAttribute="centerY" secondItem="2Td-kG-enS" secondAttribute="centerY" id="Vaa-Sd-AHs"/>
+                                <constraint firstItem="KR4-kC-vzK" firstAttribute="leading" secondItem="2Td-kG-enS" secondAttribute="leading" constant="30" id="WDO-Pr-mHw"/>
+                                <constraint firstAttribute="bottom" secondItem="oYA-tg-bhZ" secondAttribute="bottom" id="eTS-Ki-dC8"/>
+                                <constraint firstItem="oYA-tg-bhZ" firstAttribute="leading" secondItem="2Td-kG-enS" secondAttribute="leading" id="iN7-Sp-oZ3"/>
+                                <constraint firstAttribute="trailing" secondItem="KR4-kC-vzK" secondAttribute="trailing" id="mnO-Po-y1m"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LBd-jT-Dkd">
+                            <rect key="frame" x="0.0" y="160" width="345" height="360"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QKS-11-PPA">
+                                    <rect key="frame" x="30" y="14" width="285" height="297.5"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J9n-Cc-iTl">
+                                            <rect key="frame" x="0.0" y="0.0" width="285" height="14"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="14" id="22v-XJ-Bat"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="경매 출품 번호" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GmA-tU-x1H">
+                                            <rect key="frame" x="0.0" y="14" width="285" height="22.5"/>
+                                            <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PPI-WI-NLp">
+                                            <rect key="frame" x="0.0" y="36.5" width="285" height="24"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="24" id="jZz-BW-yNV"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="523515252" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4x-kk-hO0">
+                                            <rect key="frame" x="0.0" y="60.5" width="285" height="41.5"/>
+                                            <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="28"/>
+                                            <color key="textColor" red="0.0" green="0.20000000000000001" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="isD-p4-Wcg">
+                                            <rect key="frame" x="0.0" y="102" width="285" height="24"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="24" id="TLL-oP-WPt"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="해당 유질물이 오픈경매 진행중입니다." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldY-VY-CVe">
+                                            <rect key="frame" x="0.0" y="126" width="285" height="22.5"/>
+                                            <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qbl-t8-eMh">
+                                            <rect key="frame" x="0.0" y="148.5" width="285" height="18"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="18" id="Z63-YD-nnG"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="경매 진행상황이나 취하를 원하시면 한국동산감정원으로 문의(Tel. 02-6203-5504) 하시기 바랍니다." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0B-XY-Wc1">
+                                            <rect key="frame" x="0.0" y="166.5" width="285" height="67"/>
+                                            <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GtI-LU-Jxr">
+                                            <rect key="frame" x="0.0" y="233.5" width="285" height="15"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="v2O-dO-j6m"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hm1-qy-7NT" customClass="ButtonNoIcon" customModule="Oasis" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="248.5" width="285" height="34"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="34" id="i9Y-XP-EI8"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="한국동산감정원 홈페이지 바로가기"/>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="titleTextColor">
+                                                    <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="backgroundButtonColor">
+                                                    <color key="value" red="0.0" green="0.20000000000000001" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="colorBorder">
+                                                    <color key="value" red="0.0" green="0.20000000000000001" blue="0.62745098039215685" alpha="1" colorSpace="calibratedRGB"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0iN-kY-MBo">
+                                            <rect key="frame" x="0.0" y="282.5" width="285" height="15"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="SaS-7N-hRr"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DB5-St-Mqk">
+                                    <rect key="frame" x="0.0" y="311.5" width="345" height="1"/>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="kQa-H3-Nc9"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="QKS-11-PPA" firstAttribute="leading" secondItem="LBd-jT-Dkd" secondAttribute="leading" constant="30" id="1uJ-Ok-9FK"/>
+                                <constraint firstAttribute="trailing" secondItem="QKS-11-PPA" secondAttribute="trailing" constant="30" id="8wt-We-oFa"/>
+                                <constraint firstAttribute="trailing" secondItem="DB5-St-Mqk" secondAttribute="trailing" id="IbI-Fk-PkY"/>
+                                <constraint firstItem="DB5-St-Mqk" firstAttribute="top" secondItem="QKS-11-PPA" secondAttribute="bottom" id="WEW-qb-RR9"/>
+                                <constraint firstItem="DB5-St-Mqk" firstAttribute="leading" secondItem="LBd-jT-Dkd" secondAttribute="leading" id="icC-dk-j9u"/>
+                                <constraint firstItem="QKS-11-PPA" firstAttribute="top" secondItem="LBd-jT-Dkd" secondAttribute="top" constant="14" id="zjO-Ss-aZE"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="LBd-jT-Dkd" firstAttribute="top" secondItem="2Td-kG-enS" secondAttribute="bottom" id="4m2-Mi-0ZZ"/>
+                        <constraint firstItem="LBd-jT-Dkd" firstAttribute="leading" secondItem="ld3-ys-Ruj" secondAttribute="leading" id="6jJ-e3-xN5"/>
+                        <constraint firstAttribute="trailing" secondItem="2Td-kG-enS" secondAttribute="trailing" id="8zl-gN-hac"/>
+                        <constraint firstItem="dsd-hd-scj" firstAttribute="leading" secondItem="ld3-ys-Ruj" secondAttribute="leading" id="SVx-2q-IMf"/>
+                        <constraint firstAttribute="trailing" secondItem="dsd-hd-scj" secondAttribute="trailing" id="Usq-Rx-VBD"/>
+                        <constraint firstAttribute="trailing" secondItem="LBd-jT-Dkd" secondAttribute="trailing" id="WGf-Kp-Aih"/>
+                        <constraint firstItem="2Td-kG-enS" firstAttribute="leading" secondItem="ld3-ys-Ruj" secondAttribute="leading" id="Yud-bj-Z5s"/>
+                        <constraint firstItem="dsd-hd-scj" firstAttribute="top" secondItem="ld3-ys-Ruj" secondAttribute="top" id="hqh-D6-s5r"/>
+                        <constraint firstItem="2Td-kG-enS" firstAttribute="top" secondItem="dsd-hd-scj" secondAttribute="bottom" id="nws-Mb-3oX"/>
+                        <constraint firstAttribute="bottom" secondItem="LBd-jT-Dkd" secondAttribute="bottom" id="ylb-OW-Gya"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ld3-ys-Ruj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5lJ-6q-HGW"/>
+                <constraint firstItem="ld3-ys-Ruj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="AP4-kB-rvm"/>
+                <constraint firstAttribute="trailing" secondItem="ld3-ys-Ruj" secondAttribute="trailing" constant="15" id="FfV-mC-Tqa"/>
+                <constraint firstAttribute="bottom" secondItem="ld3-ys-Ruj" secondAttribute="bottom" id="ULw-nP-r7C"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="36.5" y="-14"/>
+        </view>
+    </objects>
+</document>
